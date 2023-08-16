@@ -1,0 +1,27 @@
+{
+  "name": "server-monolith",
+  "version": "1.0.0",
+  "description": "Example for a API Server Monolith for Products",
+  "main": "public/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js"
+  },
+  "author": "smesa@lean-tech.io",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/mongoose": "^5.11.97",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
